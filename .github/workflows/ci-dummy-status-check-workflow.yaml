@@ -1,0 +1,10 @@
+name: ci-dummy-status-check
+on:
+  pull_request:
+jobs:
+  ci-dummy-status-check:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: exit 0
+    outputs:
+      success: ${{ steps.setoutput.outputs.success }}

@@ -1,0 +1,8 @@
+project
+target
+project/*
+target/*
+
+.DS_Store
+.idea
+__pycache__
